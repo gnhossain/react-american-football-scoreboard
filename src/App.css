@@ -104,6 +104,8 @@
   border-radius: 4px;
   padding: 1.6rem;
   border: 1px solid white;
+  
+  
 }
 
 .buttons {
@@ -127,10 +129,13 @@
   justify-content: space-around;
   place-items: center;
   margin: 2rem;
-  border-radius: 4px;
   height: 90px;
+  
+
 }
 
 .bottomButtons button{
   margin: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
 }
