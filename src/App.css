@@ -120,3 +120,17 @@
   margin: 1rem;
   border-radius: 4px;
 }
+/* my code stat here */
+
+.bottomButtons{
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  margin: 2rem;
+  border-radius: 4px;
+  height: 90px;
+}
+
+.bottomButtons button{
+  margin: 5px;
+}
