@@ -41,20 +41,20 @@ const BottomRow = () => {
         <section className="bottomButtons">
         <div className="downButtons">
 
-        <button className="downButtons__touchdown" onClick={() =>setDownScore(downScore + 1)}>Down + </button>
-          <button className="downButtons__fieldGoal" onClick={() =>setDownScore(downScore - 1)}>Down - </button>
+        <button className="downButtons" onClick={() =>setDownScore(downScore + 1)}>Down + </button>
+          <button className="downButtons" onClick={() =>setDownScore(downScore - 1)}>Down - </button>
         </div>
         <div className="togoButtons">
-          <button className="togoButtons__touchdown" onClick={() =>setTogoScore(togoScore + 1)}>To Go + </button>
-          <button className="togoButtons__fieldGoal" onClick={() =>setTogoScore(togoScore - 1)}>To Go - </button>
+          <button className="togoButtons" onClick={() =>setTogoScore(togoScore + 1)}>To Go + </button>
+          <button className="togoButtons" onClick={() =>setTogoScore(togoScore - 1)}>To Go - </button>
         </div>
         <div className="ballonButtons">
-          <button className="ballonButtons__touchdown" onClick={() =>setBallonScore(ballonScore + 1)}>Ball on + </button>
-          <button className="ballonButtons__fieldGoal" onClick={() =>setBallonScore(ballonScore - 1)}>Ball on - </button>
+          <button className="ballonButtons" onClick={() =>setBallonScore(ballonScore + 1)}>Ball on + </button>
+          <button className="ballonButtons" onClick={() =>setBallonScore(ballonScore - 1)}>Ball on - </button>
         </div>
         <div className="quarterButtons">
-          <button className="quarterButtons__touchdown" onClick={() =>setQuarterScore(quarterScore + 1)}>Quarter + </button>
-          <button className="quarterButtons__fieldGoal" onClick={() =>setQuarterScore(quarterScore - 1)}>Quarter - </button>
+          <button className="quarterButtons" onClick={() =>setQuarterScore(quarterScore + 1)}>Quarter + </button>
+          <button className="quarterButtons" onClick={() =>setQuarterScore(quarterScore - 1)}>Quarter - </button>
         </div>
         </section>
         
