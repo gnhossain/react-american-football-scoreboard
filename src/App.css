@@ -1,12 +1,12 @@
 :root {
-  --black: #0d0d0d;
+  --black: #240e0e;
   --red: #ff2d2b;
 }
 
 .scoreboard {
   width: 58%;
   margin: 10rem auto;
-  background-color: #0b5402;
+  background-color: #669900;
   color: white;
   border-radius: 0.5rem;
   margin-top: 10rem;
@@ -50,6 +50,8 @@
   text-transform: uppercase;
   font-size: 3rem;
   padding: 2rem;
+  width:125px;
+  text-align: center;
 }
 
 .home__score,
@@ -104,6 +106,8 @@
   border-radius: 4px;
   padding: 1.6rem;
   border: 1px solid white;
+  
+  
 }
 
 .buttons {
@@ -118,5 +122,22 @@
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
   margin: 1rem;
+  border-radius: 4px;
+}
+/* my code stat here */
+
+.bottomButtons{
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  margin: 2rem;
+  height: 90px;
+  
+
+}
+
+.bottomButtons button{
+  margin: 5px;
+  border: 1px solid white;
   border-radius: 4px;
 }
